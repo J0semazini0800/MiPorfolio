@@ -1,0 +1,17 @@
+header  { 
+    border: solid;
+
+text-align: center;
+background-color: #3a3736;
+color:aliceblue;
+}
+section {
+
+    border: solid ;
+    margin: 11px;
+}
+header ul {
+background-color: white; 
+border: solid white;
+
+}
