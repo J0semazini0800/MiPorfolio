@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    margin: 0;
+    color: #3e363f;
+    padding-top: 70px;
+    }
+    nav {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 10);
+
+    }
+    .menu-item {
+        text-decoration: none;
+        color: #333;
+        padding: 10px;
+        display: inline-block;
+        }
+        .menu-item:hover {
+            background-color: #ddd;
+            transition: all 0.3s ease-in-out;
+    }
+
+
 header  { 
     border: solid;
 
@@ -15,3 +44,65 @@ background-color: white;
 border: solid white;
 
 }
+#habilidades ul {
+    list-style: none;
+    padding: 0;
+  }
+  #habilidades ul li {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-right: 10px;
+  }
+  #experiencia ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #experiencia ul li {
+    margin-bottom: 12px;
+  }
+  #proyectos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #proyectos ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  #proyectos ul li a:hover {
+    text-decoration: underline;
+  }
+  
+    
+  #sociales {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  #sociales li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .fa {
+    color: #333;
+    text-decoration: none;
+    margin-left: 0px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+
